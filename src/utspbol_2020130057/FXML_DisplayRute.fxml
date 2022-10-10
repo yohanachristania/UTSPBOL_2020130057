@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="574.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2020130057.FXML_DisplayRuteController">
+   <children>
+      <TableView fx:id="tbvrute" layoutX="60.0" layoutY="33.0" prefHeight="350.0" prefWidth="627.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnkeluar" layoutX="437.0" layoutY="479.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnakhir" layoutX="437.0" layoutY="423.0" mnemonicParsing="false" onAction="#akhirklik" text="Akhir" />
+      <Button fx:id="btnubah" layoutX="310.0" layoutY="479.0" mnemonicParsing="false" onAction="#ubahklik" text="Ubah" />
+      <Button fx:id="btnsesudah" layoutX="310.0" layoutY="423.0" mnemonicParsing="false" onAction="#sesudahklik" text="Sesudah" />
+      <Button fx:id="btnhapus" layoutX="183.0" layoutY="479.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="btnsebelum" layoutX="183.0" layoutY="423.0" mnemonicParsing="false" onAction="#sebelumklik" text="Sebelum" />
+      <Button fx:id="btntambah" layoutX="64.0" layoutY="479.0" mnemonicParsing="false" onAction="#tambahklik" text="Tambah" />
+      <Button fx:id="btnawal" layoutX="64.0" layoutY="423.0" mnemonicParsing="false" onAction="#awalklik" text="Awal" />
+   </children>
+</AnchorPane>

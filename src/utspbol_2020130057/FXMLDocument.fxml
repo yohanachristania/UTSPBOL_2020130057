@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2020130057.FXMLDocumentController">
+   <children>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Master">
+            <items>
+              <MenuItem fx:id="masterpesawat" mnemonicParsing="false" onAction="#masterpesawatklik" text="Pesawat" />
+                  <MenuItem fx:id="masterrute" mnemonicParsing="false" onAction="#masterruteklik" text="Rute" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+              <MenuItem fx:id="displaypesawat" mnemonicParsing="false" onAction="#displaypesawatklik" text="Pesawat" />
+                  <MenuItem fx:id="displayrute" mnemonicParsing="false" onAction="#displayruteklik" text="Rute" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Keluar">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
